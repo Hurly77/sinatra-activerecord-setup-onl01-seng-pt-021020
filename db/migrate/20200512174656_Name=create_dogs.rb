@@ -1,7 +1,7 @@
-class Name=createDogs < ActiveRecord::Migration[5.2]
+class CreateDogs < ActiveRecord::Migration[5.2]
   def up
     create_table :dogs do |t|
-      t.string :Name
+      t.string :name
       t.string :breed
     end
   end
